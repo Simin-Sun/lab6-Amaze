@@ -13,9 +13,8 @@
         />
     <item
         android:id="@+id/cut"
-        android:title="@string/cut"
         android:icon="@drawable/ic_content_cut_white_36dp"
-        />
+        android:title="CUT" />
     <item
         android:id="@+id/cpy"
         android:title="@string/copy"
