@@ -29,15 +29,17 @@
         app:showAsAction="ifRoom"
         android:icon="@drawable/ic_home_white_24dp"/>
     <item
-        app:showAsAction="ifRoom"
         android:id="@+id/sort"
-        android:title="@string/sort"
-        android:icon="@drawable/ic_sort_white_24dp">
-        <menu >
-            <item android:title="@string/sort_by"
-                android:id="@+id/sortby"/>
-            <item android:title="@string/directorysort"
-                android:id="@+id/dsort"/>
+        android:icon="@drawable/ic_sort_white_24dp"
+        android:title="SORT"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/sortby"
+                android:title="@string/sort_by" />
+            <item
+                android:id="@+id/dsort"
+                android:title="@string/directorysort" />
         </menu>
 
     </item>
